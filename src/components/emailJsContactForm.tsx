@@ -31,7 +31,7 @@ export const ContactUs = () => {
           setIsSubmitting(false)
           form.current?.reset();
         },
-        (error) => {
+        () => {
           toast.error('Failed to send email.', {
             position: "top-right",
             autoClose: 5000,
