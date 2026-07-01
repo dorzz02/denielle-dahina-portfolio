@@ -8,14 +8,14 @@ import BeachPavilionPlannerImg from '../assets/beach-pavillion-planner-image.png
 import { ExternalLink } from 'lucide-react'
 
 const projects = [
-    {
-        id: 1,
-        title: "Homemed",
-        description: "Developed a custom HubSpot CMS website from Adobe XD designs, building reusable components and responsive layouts that delivered a seamless experience across modern browsers and devices.",
-        image: HomedImg,
-        tags: ["Hubspot CMS", "Hubl", "HTML", "CSS", "Javascript", "Jquery"],
-        demoUrl: "https://www.homemed.com/",
-    },
+    // {
+    //     id: 1,
+    //     title: "Homemed",
+    //     description: "Developed a custom HubSpot CMS website from Adobe XD designs, building reusable components and responsive layouts that delivered a seamless experience across modern browsers and devices.",
+    //     image: HomedImg,
+    //     tags: ["Hubspot CMS", "Hubl", "HTML", "CSS", "Javascript", "Jquery"],
+    //     demoUrl: "https://www.homemed.com/",
+    // },
     {
         id: 2,
         title: "Swhacker (FL Outdoors)",
