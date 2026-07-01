@@ -9,7 +9,7 @@ export const HeroSection = () => {
                 className="relative min-h-screen flex flex-col items-center justify-center px-4"
             >
                 <div className="container max-w-7xl mx-auto text-center z-10">
-                    <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-12 items-center">
+                    <div className="flex flex-col-reverse mt-16 md:mt-0 md:grid md:grid-cols-2 gap-12 items-center">
                         <div className="space-y-6">
                             <h1 className="text-4xl lg:text-5xl font-bold tracking-tight">
                                 <span className="opacity-0 animate-fade-in">Hi, I'm </span>
