@@ -1,4 +1,3 @@
-import HomedImg from '../assets/Homemed-image.png'
 import SwhackerImg from '../assets/swhacker-image.png'
 import NurocoImg from '../assets/nuroco-image.png'
 import NouvintageImg from '../assets/nouvintage-image.png'
