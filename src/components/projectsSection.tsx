@@ -11,7 +11,7 @@ import { ExternalLink } from 'lucide-react'
 const projects = [
     {
         id: 8,
-        titlle: "Bellini",
+        title: "Bellini",
         description: "As a Front-End Developer, I contributed to the ongoing development and enhancement of the platform by implementing new user-facing features, troubleshooting and resolving application issues, and improving the overall user experience. I collaborated closely with cross-functional team members throughout the development lifecycle to ensure new functionality met quality standards and business requirements. My work also included validating feature functionality, supporting application stability, and contributing to the continuous improvement of the product.",
         image: DnDIllustration,
         tags: [],
