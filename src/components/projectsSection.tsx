@@ -14,8 +14,8 @@ const projects = [
         title: "Bellini",
         description: "As a Front-End Developer, I contributed to the ongoing development and enhancement of the platform by implementing new user-facing features, troubleshooting and resolving application issues, and improving the overall user experience. I collaborated closely with cross-functional team members throughout the development lifecycle to ensure new functionality met quality standards and business requirements. My work also included validating feature functionality, supporting application stability, and contributing to the continuous improvement of the product.",
         image: DnDIllustration,
-        tags: [],
-        demoURL: "https://www.lonti.com/bellini"
+        tags: ['Enterprise Platform'],
+        demoUrl: "https://www.lonti.com/bellini",
     },
     {
         id: 1,
@@ -93,7 +93,7 @@ export const ProjectsSection = () => {
                         {projects.map((project, key) => (
                             <div 
                                 key={key}
-                                className="group bg-card rounded-lg overgflow-hidden shadow-xs card-hover"
+                                className="group bg-card rounded-lg overgflow-hidden shadow-xs card-hover relative"
                             >
                                 <div className="h-40 xl:h-90 overflow-hidden relative">
                                     <img
@@ -114,15 +114,16 @@ export const ProjectsSection = () => {
 
                                     <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
                                     <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
-                                    <div className="flex justify-between items-center">
-                                        <a
-                                            href={project.demoUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <ExternalLink />
-                                        </a>
-                                    </div>
+                                </div>
+
+                                <div className="flex justify-between items-center absolute bottom-2 right-0 left-0 z-10 max-w-[20px] mx-auto">
+                                    <a
+                                        href={project.demoUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <ExternalLink />
+                                    </a>
                                 </div>
                             </div>
                         ))}
