@@ -4,17 +4,27 @@ import NouvintageImg from '../assets/nouvintage-image.png'
 import AVPartnersImg from '../assets/avpartners-image.png'
 import AVPartnersWhitsundaysImg from '../assets/whitsundays-site.png'
 import BeachPavilionPlannerImg from '../assets/beach-pavillion-planner-image.png'
+import HomedImg from '../assets/Homemed-image.png'
+import DnDIllustration from '../assets/drag-and-drop-illustration.png'
 import { ExternalLink } from 'lucide-react'
 
 const projects = [
-    // {
-    //     id: 1,
-    //     title: "Homemed",
-    //     description: "Developed a custom HubSpot CMS website from Adobe XD designs, building reusable components and responsive layouts that delivered a seamless experience across modern browsers and devices.",
-    //     image: HomedImg,
-    //     tags: ["Hubspot CMS", "Hubl", "HTML", "CSS", "Javascript", "Jquery"],
-    //     demoUrl: "https://www.homemed.com/",
-    // },
+    {
+        id: 8,
+        titlle: "Bellini",
+        description: "As a Front-End Developer, I contributed to the ongoing development and enhancement of the platform by implementing new user-facing features, troubleshooting and resolving application issues, and improving the overall user experience. I collaborated closely with cross-functional team members throughout the development lifecycle to ensure new functionality met quality standards and business requirements. My work also included validating feature functionality, supporting application stability, and contributing to the continuous improvement of the product.",
+        image: DnDIllustration,
+        tags: [],
+        demoURL: "https://www.lonti.com/bellini"
+    },
+    {
+        id: 1,
+        title: "Homemed",
+        description: "Developed a custom HubSpot CMS website from Adobe XD designs, building reusable components and responsive layouts that delivered a seamless experience across modern browsers and devices.",
+        image: HomedImg,
+        tags: ["Hubspot CMS", "Hubl", "HTML", "CSS", "Javascript", "Jquery"],
+        demoUrl: "https://www.homemed.com/",
+    },
     {
         id: 2,
         title: "Swhacker (FL Outdoors)",
